@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yuntao OmniGraffle"
+  short_description: "Editable academic figures in macOS OmniGraffle"
+  default_prompt: "Use $yuntao-omnigraffle to redraw the specified paper diagrams as native OmniGraffle files, match my reference styles, and verify the exported PDF in LaTeX."
