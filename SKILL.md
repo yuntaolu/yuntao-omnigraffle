@@ -28,8 +28,8 @@ For small edits use the inspectors. For repeatable multi-object diagrams, run re
 ## Export and verify
 
 1. Save and reopen the `.graffle` file. Select a node or group and confirm editability and retained connector attachments.
-2. Export **PDF → Current Canvas → 100%**, with notes excluded. Use a white or transparent background as required. Preserve the prior export before replacing it.
-3. Inspect the PDF at publication size: all labels, arrowheads, line breaks, legends and margins. Confirm canvas dimensions and embedded font sizes. A PNG preview may be rendered from this PDF; it is not the paper's vector source.
+2. Select the intended figure objects, then export **PDF → Selection (Current Canvas) → 100%**. Enable **Transparent background** and leave **Include margin** disabled with its value at **0 px**. Exclude notes and non-printing layers. Do not export the entire canvas unless the user explicitly requests it. Preserve the prior export before replacing it.
+3. Inspect the PDF at publication size: all labels, arrowheads, line breaks, legends and margins. Confirm selected-object export dimensions and embedded font sizes. A PNG preview may be rendered from this PDF; it is not the paper's vector source.
 4. Rebuild the manuscript after replacing the figure. Check references, overfull boxes, page budget and the placement of the figure. Keep an explicit author-requested format separate from venue compliance.
 5. If delivery copies exist, refresh their PDF, Word previews and source ZIP. Include `.graffle` and the native drawing script in the source package; avoid publishing private research files merely to distribute this skill.
 6. Report native source, exported figure, rebuilt manuscript, unchanged excluded files and checks performed. File existence alone does not prove a correct export.

@@ -67,6 +67,10 @@ Magnets are indexed from 1; 0 means no specific magnet. For a bent line, set `li
 
 - **File → Save As…** saves the native `.graffle`. Verify the resulting document URL; macOS may otherwise autosave an untitled document to iCloud.
 - Reopen the saved local file and use **Fit in Window** to inspect every object. Select one node; verify its label and native properties.
-- **File → Export… → PDF → Current Canvas → 100%** exports the whole fixed canvas. **All Objects** crops differently and can change insertion geometry.
+- Select the intended native objects and attached connectors. Use **Select All** only when the active canvas contains exactly the intended figure. Verify the selection count before exporting.
+- **File → Export… → PDF → Selection (Current Canvas) → 100%** exports the selected objects. Do not substitute **Current Canvas**, **Entire Document**, or **All Objects** for the selected-object route unless the user requests that scope.
+- Enable **Transparent background**. Leave **Include margin** unchecked and verify the disabled margin field reads **0 px**. If it retains a nonzero value, enable the field, enter zero, then disable it again.
+- In OmniGraffle 7.26 the margin controls may appear only after choosing a selection-based export area. Refresh accessibility state after changing the area, and inspect the export preview. Verify Selection, transparency, zero margin, 100% scale and excluded notes together.
+- Selection bounds include selected transparent shapes and strokes. Avoid selecting invisible full-canvas rectangles or unrelated objects that enlarge the export. Zero additional margin does not remove intentional whitespace inside selected objects. Compare PDF dimensions with the intended selection, and check transparency by rendering with alpha rather than assuming a white viewer background is an opaque PDF.
 - Keep notes excluded. Check PDF author metadata when the target package must be anonymous; embedded figure metadata and final manuscript metadata are separate checks.
 - Exporting is complete only after the target file exists, its PDF dimensions and text are verified, and the rebuilt paper shows the intended figure.

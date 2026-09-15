@@ -33,6 +33,10 @@ Codex：`$yuntao-omnigraffle`；Claude Code：`/yuntao-omnigraffle`，或在任�
 
 > 使用 yuntao-omnigraffle，将方法章节的流程图重绘为本机 OmniGraffle 图源，参考我指定的三个 graffle 文件。保留所有节点、箭头方向和图例含义，实验统计图不改，保存到 fig/src 并更新论文中的 PDF。
 
+## 默认导出
+
+选中需要的图形和连接器，使用 **PDF → Selection (Current Canvas) → 100%**，勾选 **Transparent background**，关闭 **Include margin** 并确认数值为 **0 px**，不包含 notes 和 non-printing layers。只有用户明确要求时才导出整个画布。导出后核对选区尺寸、透明背景和文字可读性。
+
 ## 检查
 
 ```sh
