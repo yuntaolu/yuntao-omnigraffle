@@ -2,7 +2,7 @@
 
 用于 macOS OmniGraffle 原生学术绘图的 Claude Code/Codex Skill。根据已有 `.graffle` 示例复用字体、浅色分区和连线风格，交付可编辑图源、矢量 PDF，并检查 LaTeX 中的实际效果。
 
-参考 [yuntao-paper-writing](https://github.com/yuntaolu/yuntao-paper-writing) 的 Skill 组织方式。本仓库只包含通用工作流、样式参数和检查工具，不包含未发表论文或原始研究图片。
+本仓库只包含通用工作流、样式参数和检查工具，不包含未发表论文或原始研究图片。
 
 ## 内容
 
